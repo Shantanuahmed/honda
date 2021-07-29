@@ -1,0 +1,9 @@
+.header-bg{
+    background-color: rgba(38, 70, 83, 1);
+}
+/*------------------ header part---------------------- */
+
+.gray-bike{
+    filter: grayscale(1);
+}
+/*---------------- ---featured part --------------------*/
