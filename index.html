@@ -8,11 +8,14 @@
     <title>Honda cbs</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
+    <!-- --------------------------font awesome---------------------- -->
+    <script src="https://kit.fontawesome.com/4a463e6233.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
     <!------------------------------------------------------ HEADER START  --------------------------------------------------->
-    <header style="background-color: rgba(38, 70, 83, 1);">
+    <header style="background-color: rgba(38, 70, 83, 1);" class="mb-5">
         <!-- ---------------------------------navbar start-------------------------------  -->
 
         <nav class="navbar navbar-expand-lg navbar-light">
@@ -54,7 +57,7 @@
                 <div class="col-12 col-lg-6 mb-3">
                     <div class="text-white">
                         <p>Computer-controlled digital transistorized with electronic advance</p>
-                        <h1 class="display-4">Honda CBR 300R</h1>
+                        <h1 class="display-4 fw-bold">Honda CBR 300R</h1>
                         <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor <br> do amet sint. Velit officia
                             consequat
                             duis enim velit mollit. <br> Exercitation veniam consequat sunt nostrud amet.</p>
@@ -62,7 +65,7 @@
                     <button class="bg-danger text-white px-4 py-2 rounded" data-bs-toggle="modal"
                         data-bs-target="#exampleModal"> Purchase</button>
 
-                    <!------------------------ Modal ----------------------->
+                    <!------------------------ Modal start ----------------------->
 
                     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                         aria-hidden="true">
@@ -105,6 +108,7 @@
                             </div>
                         </div>
                     </div>
+                    <!------------------------ Modal end ----------------------->
                 </div>
                 <div class="col-12 col-lg-6">
                     <img class="w-100" src="images/header-bike.png" alt="">
@@ -115,17 +119,310 @@
 
     </header>
     <!------------------------------------------------------ HEADER END  --------------------------------------------------->
+    <!-------------------------------------------- feature section start -------------------------------------------- -->
+    <section class="container my-5">
+        <article>
+            <div class="text-center">
+                <h1 class="display-5 fw-bold">Featured Bikes 2021</h1>
+                <p><small>Best bike collection</small></p>
+            </div>
+            <div class="row g-5 d-flex align-items-center mx-auto">
+                <div class="col-12 col-lg-4 col-md-6">
+                    <div class="m-4 p-4 " style="filter: grayscale(1);">
+                        <img class="w-100" src="images/feature-bike.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6">
+                    <div class="m-4 p-4">
+                        <img class="w-100" src="images/feature-bike.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6">
+                    <div class="m-4 p-4" style="filter: grayscale(1);">
+                        <img class="w-100" src="images/feature-bike.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <!-------------------------------------------- feature section end -------------------------------------------- -->
+
+    <!------------------------------------------ latest news section start  ------------------------------------------>
+
+    <section class="container my-5 py-5">
+        <article>
+            <h1 class="display-5 text-center fw-bold mb-5">Latest News</h1>
+            <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="m-3 p-3"> <img src="images/bike-1.png" class="card-img-top" alt="..."></div>
+                        <div class="card-body m-3 ">
+                            <h3 class="card-title">Ducati XDIAVEL S-73</h3>
+                            <p class="card-text">Engine is the king. Beautiful, powerful, sophisticated. The XDiavel has
+                                the latest evolutionary step of the Testastretta engine:</p>
+                        </div>
+                        <div class="mx-3 px-3 ">
+                            <button class="px-3 py-2 border border-danger text-white bg-danger rounded mb-3">Read
+                                More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 ">
+                        <div class="m-3 p-3"> <img src="images/bike-2.png" class="card-img-top" alt="..."></div>
+                        <div class="card-body m-3">
+                            <h3 class="card-title">Motorcycles & Scooters</h3>
+                            <p class="card-text">We are good at starting you off on bikes and scooters. You will not
+                                find us as a big scary bike shop. Everyone working here loves Motorcycles and Scooters.
+                            </p>
+                        </div>
+                        <div class="mx-3 px-3 ">
+                            <button class="px-3 py-2 border border-danger text-danger bg-white rounded mb-3">Read
+                                More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="m-3 p-3"> <img src="images/bike-3.png" class="card-img-top" alt="..."></div>
+                        <div class="card-body">
+                            <h3 class="card-title">2021 Honda CBR500R</h3>
+                            <p class="card-text">CBR500R ABS- Is it any wonder why the Honda CBR500R is
+                                one of our most popular sportbikes? It just gets so many things right.</p>
+                        </div>
+                        <div class="mx-3 mb-3 px-3 ">
+                            <button class="px-3 py-2 border border-danger text-danger bg-white rounded">Read
+                                More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+    <!------------------------------------------ latest news section end  ------------------------------------------>
+
+    <!------------------------------------------------ Clients section start --------------------------------------------->
+    <section class="container my-5 py-5">
+        <article>
+            <h1 class="text-center mb-4 fw-bold display-4">Happy <span class="text-danger">Clients says</span></h1>
+            <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-5 mx-lg-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="d-flex justify-content-center mt-5">
+                            <img src="images/user-1.png" class="card-img-top w-50 " alt="...">
+                        </div>
+                        <div class="card-body text-center m-3">
+
+                            <p class="card-text">Comfort and economy ... Considering the XDiavel has enough power to
+                                have won a TT 20 years ago and a riding position straight out of Easy Rider</p>
+                            <p><span class="text-warning"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                                <i class="far fa-star"></i>
+                            </p>
+                            <p> <a class="text-decoration-none fw-bold" href=""><small>John Carter</small></a></p>
+                            <p class="fw-bold"><small>Banker</small></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="d-flex justify-content-center mt-5">
+                            <img src="images/user-2.png" class="card-img-top w-50 " alt="...">
+                        </div>
+                        <div class="card-body text-center m-3">
+
+                            <p class="card-text">A No Downside Decision. The CBR500R could be your only motorcycle for
+                                years and I think you would be very happy. I just love it!</p>
+                            <p><span class="text-warning"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                                <i class="far fa-star"></i>
+                            </p>
+                            <p> <a class="text-decoration-none fw-bold" href=""><small>Heather Gram</small></a></p>
+                            <p class="fw-bold"><small>Film Maker</small></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="d-flex justify-content-center mt-5">
+                            <img src="images/circle-cropped.png" class="card-img-top w-50 rounded " alt="...">
+                        </div>
+                        <div class="card-body text-center m-3">
+                            <p class="card-text">Smooth power delivery makes it very user friendly especially for a
+                                beginner. Build quality is typical Honda very robust while delivering performance.</p>
+                            <p><span class="text-warning"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                                <i class="far fa-star"></i>
+                            </p>
+                            <p><a class="text-decoration-none fw-bold" href=""><small>Elijabeth kiyara</small></a></p>
+                            <p class="fw-bold"><small>Actress</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <!------------------------------------------------ Clients section end --------------------------------------------->
+
+    <!--------------------------------------------------- Question secttion start ------------------------------------------>
+    <section class="container my-5">
+
+        <article>
+            <h1 class="fw-bold display-4 text-center">Frequently Asked <span class="text-danger">Questions</span>
+            </h1>
+            <div class="row d-flex align-items-center">
+                <div class="col-12 col-lg-6">
+                    <div class="mx-lg-5 my-lg-5 mb-2">
+                        <img class="w-100 " src="images/faq.png" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div>
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Why are Ducati bikes so expensive?
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <P>
+                                            Part of it is simply that Ducati is a premium brand, and people will pay
+                                            extra for that. Part of it is that, because of that, Ducatis can be built to
+                                            a more expensive standard, whereas Japanese bikes are more likely to have to
+                                            have built to a price, and may have some corners cut to do that.</P>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+
+                                        What is the difference between Ducati Diavel and XDiavel?
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            The XDiavel differs from the standard Diavel primarily through more
+                                            laid-back ergonomics, which are configurable in many ways for riders of
+                                            varying sizes. For 2019, the XDiavel comes in a new Matte Liquid Concrete
+                                            Gray. The S variant has that color as well, plus Thrilling Black or Iceberg
+                                            White.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        How dangerous is riding a motorcycle?
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Riding motorcycles is dangerous. Motorcyclists account for 14% of all
+                                            crash-related fatalities, even though they are only 3% of the vehicles on
+                                            the road. Motorcyclists are 28 times more likely than passenger-vehicle
+                                            occupants to die in a car crash. More than 80% of these type of crashes
+                                            result in an injury or death.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
+                                        Is the Honda CB500F a good beginner bike?
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            The Honda CB500F is small enough for the true beginner but fun and
+                                            capable for more experienced riders as well. The 500cc twin-cylinder
+                                            engine develops usable torque. A comfortable, upright riding position
+                                            and 30.9 inch seat height provide good ergonomics.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <!--------------------------------------------------- Question secttion end ------------------------------------------>
+    <!--------------------------------------------------------- Bonus part-1 start  ------------------------------------------->
+
+    <section class="container my-5">
+        <article>
+            <h1 class="display-4 fw-bold text-center"><span class="text-success">Upcoming</span> Products...</h1>
+            <div class="row">
+                <div class="col">
+                    <div>
+                        <img src="images/upcoming1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
 
 
 
 
 
 
+    <!-------------------------------------------------------- footer start --------------------------------------------->
 
+    <footer style="background-color: rgba(38, 70, 83, 1);">
+        <div class="container pb-5">
+            <div class="row  ">
+                <div class="col-12 col-lg-6  col-md-6">
+                    <div class="d-block me-4 my-4"> <a class="text-white text-decoration-none" href="">Download Now</a>
+                        <a class="text-white text-decoration-none m-3 " href="">License</a>
+                    </div>
+                    <div class="d-block me-4"><a class="text-white text-decoration-none" href="">About</a>
+                        <a class="text-white text-decoration-none m-3" href="">Features</a>
+                        <a class="text-white text-decoration-none m-3" href="">Pricing</a>
+                        <a class="text-white text-decoration-none m-3" href="">Careers</a>
+                        <a class="text-white text-decoration-none m-3" href="">Help</a>
+                        <a class="text-white text-decoration-none m-3" href="">Privacy Policy</a>
+                    </div>
+                    <div class=" text-white mt-4 d-none d-sm-block ">
+                        <p> &#169;2020 bike. All rights reserved</p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 col-md-6">
+                    <div class=" me-5 pe-5 text-end">
+                        <h2 class="mt-3 text-white">Get the app</h2>
+                        <img class="mb-3" src="images/app-store.jpg" alt=""> <br>
+                        <img class="mb-3" src="images/google_play_logo.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class=" text-white mt-4  d-sm-block d-block d-md-none text-center">
+                <p> &#169;2020 bike. All rights reserved</p>
+            </div>
+        </div>
 
-
-
-
+    </footer>
+    <!-------------------------------------------------------- footer end --------------------------------------------->
 
 
 
